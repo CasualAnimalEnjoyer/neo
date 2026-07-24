@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+	"e": {"item":"irons_spellbooks:ender_rune"},
+	"s": {"item":"hazentouvelib:shadow_rune"},
+	"c": {"item":"irons_spellbooks:artificer_cane"},
+	"d": {"item":"irons_spellbooks:dragonskin"},
+	"h": {"item":"hazennstuff:shadestone"},
+	"i": {"item":"hazennstuff:zenalite_ingot"}
+  },
+  "pattern": [
+    " de",
+    "zsh",
+    "cz "
+  ],
+  "result": {
+    "id": "hazennstuff:rod_of_discord"
+  }
+}

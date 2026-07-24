@@ -1,0 +1,170 @@
+{
+    "Features": {
+        "enable_profiles": {
+            "value": false
+        },
+        "item_scrolling": {
+            "value": false
+        }
+    },
+    "ModSettings": {
+        "include_hotbar_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_all_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_focus_mach_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_just_refill_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "enable_updates_check": false,
+        "first_run": false,
+        "enable_profiles": {
+            "value": false
+        },
+        "sort_order": "ITEM_ID"
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "enable_profiles_announcement": false,
+    	"editor_left": 35,
+    	"editor_top": 252,
+    	"settings_left": 23,
+    	"settings_top": 252
+    },
+    "SortSettings": {
+        "sort_order": "ITEM_ID"
+    },
+    "LockedSlotsSettings": {
+        "lock_slots_switch_config_modifier": {
+            "main": {
+                "keys": "LEFT_CONTROL"
+            }
+        }
+    },
+    "AutoRefillSettings": {
+        "disable_for_drop_item": {
+            "value": true
+        },
+        "ignore_locked_slots": false,
+        "tool_damage_threshold": 1,
+        "auto_refill_wait_tick": 10,
+        "auto_refill_match_any_food": true,
+        "number_of_notifications": 2
+    },
+    "EditProfiles": {
+        "enable_profiles": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "reload_custom_configs": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "auto_refill_gui_toggle_for_slot": {
+            "main": {
+                "keys": "LEFT_CONTROL,A"
+            }
+        },
+        "auto_refill_game_toggle_for_slot": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "apply_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "next_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "prev_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_1": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_2": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_3": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_4": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_5": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_6": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_7": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_8": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_9": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_10": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "save_as_profile": {
+            "main": {
+                "keys": ""
+            }
+        }
+    }
+}

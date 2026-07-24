@@ -1,0 +1,36 @@
+{
+    "com.lance5057.extradelight.workstations.doughshaping.DoughShapingScreen": {
+        "ignore": true
+    },
+    "com.lance5057.extradelight.workstations.doughshaping.DoughShapingMenu": {
+        "ignore": true
+    },
+    "com.lance5057.extradelight.workstations.meltingpot.MeltingPotScreen": {
+        "playerSideOnly": true
+    },
+    "com.lance5057.extradelight.workstations.chiller.ChillerScreen": {
+        "ignore": true
+    },
+    "com.lance5057.extradelight.workstations.mixingbowl.MixingBowlScreen": {
+        "playerSideOnly": true
+    },
+    "com.lance5057.extradelight.workstations.vat.VatScreen": {
+        "playerSideOnly": true
+    },
+    "com.lance5057.extradelight.workstations.oven.OvenScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": -17
+            }
+        }
+    },
+    "com.lance5057.extradelight.blocks.picnicbasket.PicnicBasketScreen": {
+        "ignore": true
+    },
+    "com.lance5057.extradelight.blocks.picnicbasket.PicnicBasketMenu": {
+        "ignore": true
+    },
+    "com.lance5057.extradelight.workstations.chiller.ChillerMenu": {
+        "ignore": true
+    }
+}

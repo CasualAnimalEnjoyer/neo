@@ -1,0 +1,14 @@
+{
+    "com.iafenvoy.iceandfire.screen.gui.LecternScreen": {
+        "ignore": true
+    },
+    "com.iafenvoy.iceandfire.screen.handler.LecternScreenHandler": {
+        "ignore": true
+    },
+    "com.iafenvoy.iceandfire.screen.gui.PodiumScreen": {
+        "ignore": true
+    },
+    "com.iafenvoy.iceandfire.screen.handler.PodiumScreenHandler": {
+        "ignore": true
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {"item":"minecraft:cactus"},
+	"r": {"item":"irons_spellbooks:nature_rune"},
+	"w": {"tag":"minecraft:logs"},
+	"i": {"item":"hazennstuff:chlorophyte_ingot"}
+  },
+  "pattern": [
+    "   ",
+    "rir",
+    "wcw"
+  ],
+  "result": {
+    "id": "hazennstuff:thorn_chakram"
+  }
+}

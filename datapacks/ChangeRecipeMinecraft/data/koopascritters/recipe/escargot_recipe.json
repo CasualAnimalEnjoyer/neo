@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "escargot",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:allium"
+    },
+    {
+      "item": "minecraft:allium"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "koopascritters:cape_buffalo_butter"
+    },
+    {
+      "item": "koopascritters:raw_snail_kc"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "koopascritters:raw_snail_kc"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "koopascritters:raw_snail_kc"
+    }
+  ],
+  "result": {
+    "id": "koopascritters:escargot",
+    "count": 3
+  }
+}

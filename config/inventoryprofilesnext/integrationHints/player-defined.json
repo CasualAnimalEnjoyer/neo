@@ -1,0 +1,110 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 25,
+                "bottom": 16
+            },
+            "SORT": {
+                "horizontalOffset": -24
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            },
+            "SORT_ROWS": {
+                "bottom": 24
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 1,
+                "bottom": 26
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -10,
+                "bottom": -8
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -10,
+                "top": 2
+            },
+            "SORT": {
+                "horizontalOffset": -46,
+                "top": 38
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -34,
+                "top": 26
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -22,
+                "top": 14
+            }
+        }
+    },
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneEditScreen": {
+        "ignore": true
+    },
+    "net.blay09.mods.waystones.menu.WaystoneEditMenu": {
+        "ignore": true
+    },
+    "net.dawson.adorablehamsterpets.screen.HamsterInventoryScreen": {
+        "playerSideOnly": true
+    },
+    "com.github.L_Ender.cataclysm.client.gui.GUIWeponfusion": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "bottom": -1
+            }
+        }
+    },
+    "dev.xylonity.companions.client.gui.screen.SoulFurnaceScreen": {
+        "playerSideOnly": true
+    },
+    "com.vsngarcia.client.gui.ElevatorScreen": {
+        "ignore": true
+    },
+    "com.vsngarcia.level.ElevatorContainer": {
+        "ignore": true
+    },
+    "net.orcinus.galosphere.client.gui.CombustionTableScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": 35
+            },
+            "SORT_COLUMNS": {
+                "bottom": 35
+            },
+            "SORT_ROWS": {
+                "bottom": 35
+            }
+        }
+    },
+    "net.mcreator.luminousnether.world.inventory.CleansingGUIMenu": {
+        "ignore": true
+    },
+
+    "com.wdiscute.starcatcher.tournament.StandScreen": {
+        "ignore": true
+    },
+    "com.wdiscute.starcatcher.tournament.StandMenu": {
+        "ignore": true
+    },
+    "com.telepathicgrunt.the_bumblezone.client.screens.BuzzingBriefcaseScreen": {
+        "ignore": true
+    },
+    "com.telepathicgrunt.the_bumblezone.menus.BuzzingBriefcaseMenu": {
+        "ignore": true
+    }
+}

@@ -1,0 +1,33 @@
+etheriumShieldRenderLayer = true
+quoteSubtitles = true
+# Default: 60
+# Range: 0 ~ 100
+deathQuoteChance = 60
+
+[magnetButton]
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetX = -51
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetY = -35
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetXCreative = 0
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetYCreative = 0
+
+[enderButton]
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetX = -74
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetY = -54
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetXCreative = 0
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetYCreative = 0

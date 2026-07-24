@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        "X#X",
+        "///"
+    ],
+    "key": {
+        "/": {"item":"minecraft:stick"},
+        "#": {"item":"minecraft:netherite_block"},
+        "X": {"item":"storagedrawers:diamond_storage_upgrade"}
+    },
+    "result": {"id": "storagedrawers:netherite_storage_upgrade"}
+}

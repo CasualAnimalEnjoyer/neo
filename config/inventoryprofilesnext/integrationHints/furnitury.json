@@ -1,0 +1,83 @@
+{
+    "com.yablon.furnitury.screen.TrashcanScreen": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.TrashcanMenu": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.FurnitureWorkbenchScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": -12
+            },
+            "SORT": {
+                "horizontalOffset": 12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 12
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 16,
+                "bottom": 22
+            }
+        }
+    },
+    "com.yablon.furnitury.screen.FurnitureWorkbenchMenu": {
+        "playerSideOnly": true
+    },
+    "com.yablon.furnitury.screen.DisplayCaseScreen": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.DisplayCaseMenu": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.DoubleShelfScreen": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.DoubleShelfMenu": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.BoxScreen": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.BoxMenu": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.DresserScreen": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.DresserMenu": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.CabinetScreen": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.CabinetMenu": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.WaterCoolerScreen": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.WaterCoolerMenu": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.FridgeScreen": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.FridgeMenu": {
+        "ignore": true
+    },
+    "com.yablon.furnitury.screen.MicrowaveScreen": {
+        "playerSideOnly": true
+    },
+    "com.yablon.furnitury.screen.KitchenFurnaceScreen": {
+        "playerSideOnly": true
+    },
+    "com.yablon.furnitury.screen.GrillScreen": {
+        "playerSideOnly": true
+    }
+}

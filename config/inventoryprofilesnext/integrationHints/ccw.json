@@ -1,0 +1,14 @@
+{
+    "com.lnatit.ccw.menu.client.DrawerTableScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 1
+            }
+    },
+    "com.lnatit.ccw.menu.client.SugarRefineryScreen": {
+        "ignore": true
+    },
+    "com.lnatit.ccw.menu.SugarRefineryMenu": {
+        "ignore": true
+    }
+}

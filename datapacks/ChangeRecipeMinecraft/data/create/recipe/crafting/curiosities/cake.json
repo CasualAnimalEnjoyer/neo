@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cake",
+  "key": {
+    "e": {"tag":"c:eggs"},
+    "m": {"tag":"c:milk"},
+    "b": {"item":"minecraft:sweet_berries"},
+    "d": {"tag":"c:foods/dough"},
+    "s": {"tag":"c:sugar"}
+  },
+  "pattern": [
+    "   ",
+    "meb",
+    "sds"
+  ],
+  "result": {
+    "id": "minecraft:cake"
+  }
+}

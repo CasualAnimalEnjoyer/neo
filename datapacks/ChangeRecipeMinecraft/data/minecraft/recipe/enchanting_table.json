@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {"tag":"c:obsidians"},
+    "B": {"item":"minecraft:book"},
+    "D": {"tag":"c:gems/diamond"},
+    "C": {"item":"minecraft:red_carpet"}
+  },
+  "pattern": [
+    "CBC",
+    "DOD",
+    "OOO"
+  ],
+  "result": {
+    "id": "minecraft:enchanting_table"
+  },
+  "show_notification": true
+}

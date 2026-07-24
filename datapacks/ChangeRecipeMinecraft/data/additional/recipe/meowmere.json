@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+	"w": {"item":"irons_spellbooks:weapon_parts"},
+	"r": {"item":"hazentouvelib:radiance_rune"},
+	"a": {"item":"irons_spellbooks:arcane_ingot"},
+	"p": {"item":"hazennstuff:rose_gold_ingot"},
+	"z": {"item":"hazennstuff:zenalite_ingot"},
+  },
+  "pattern": [
+    " ap",
+    "rpz",
+    "wr "
+  ],
+  "result": {
+    "id": "hazennstuff:meowmere"
+  }
+}

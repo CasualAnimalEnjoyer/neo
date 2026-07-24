@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        "X#X",
+        "///"
+    ],
+    "key": {
+        "/": {"item":"minecraft:stick"},
+        "#": {"item":"minecraft:diamond_block"},
+        "X": {"item":"storagedrawers:emerald_storage_upgrade"}
+    },
+    "result": {"id": "storagedrawers:diamond_storage_upgrade"}
+}

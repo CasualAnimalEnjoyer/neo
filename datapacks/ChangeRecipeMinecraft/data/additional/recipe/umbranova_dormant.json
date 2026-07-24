@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+	"r": {"item":"irons_spellbooks:ender_rune"},
+	"c": {"item":"irons_spellbooks:artificer_cane"},
+	"e": {"item":"minecraft:end_crystal"},
+	"a": {"item":"irons_spellbooks:arcane_ingot"},
+	"i": {"item":"hazennstuff:steel_ingot"}
+  },
+  "pattern": [
+    " ar",
+    "iea",
+    "ci "
+  ],
+  "result": {
+    "id": "hazennstuff:umbranova_dormant"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+	"r": {"item":"irons_spellbooks:ender_rune"},
+	"e": {"item":"hazennstuff:excalibur_fragment"},
+	"s": {"item":"minecraft:netherite_sword"},
+	"o": {"tag":"c:obsidians"},
+	"i": {"item":"hazennstuff:steel_ingot"}
+  },
+  "pattern": [
+    " ri",
+    "oer",
+    "so "
+  ],
+  "result": {
+    "id": "hazennstuff:obsidian_claymore"
+  }
+}

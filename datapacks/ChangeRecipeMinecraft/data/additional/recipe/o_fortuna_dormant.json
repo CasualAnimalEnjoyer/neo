@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+	"r": {"item":"irons_spellbooks:nature_rune"},
+	"w": {"tag":"minecraft:logs"},
+	"b": {"item":"hazennstuff:overgrown_bone"},
+	"i": {"item":"hazennstuff:chlorophyte_ingot"}
+  },
+  "pattern": [
+    "iwr",
+    " bi",
+    " w "
+  ],
+  "result": {
+    "id": "hazennstuff:o_fortuna_dormant"
+  }
+}

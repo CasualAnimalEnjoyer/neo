@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        " X ",
+        "///"
+    ],
+    "key": {
+        "/": { "item": "minecraft:warped_planks" },
+        "X": { "item": "storagedrawers:detached_drawer" }
+    },
+    "result": { "id": "storagedrawers:warped_full_drawers_1" }
+}

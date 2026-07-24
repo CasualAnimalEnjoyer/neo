@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        " X ",
+        "///"
+    ],
+    "key": {
+        "/": { "item": "minecraft:bamboo_slab" },
+        "X": { "item": "storagedrawers:detached_drawer" }
+    },
+    "result": { "id": "storagedrawers:bamboo_half_drawers_1" }
+}

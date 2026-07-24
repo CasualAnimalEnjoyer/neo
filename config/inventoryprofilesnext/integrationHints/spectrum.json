@@ -1,0 +1,147 @@
+{
+    "de.dafuqs.spectrum.inventories.PotionWorkshopScreen": {
+        "playerSideOnly": true
+    },
+    "de.dafuqs.spectrum.inventories.SpectrumGenericContainerScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 12,
+                "top": 121
+            },
+            "SORT": {
+                "horizontalOffset": 12,
+                "top": 121
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 12,
+                "top": 121
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 12,
+                "top": 121
+            },
+            "MOVE_TO_CONTAINER": {
+                "bottom": 1
+            }
+        }
+    },
+    "de.dafuqs.spectrum.inventories.PedestalScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 12,
+                "top": 94
+            },
+            "SORT": {
+                "horizontalOffset": 12,
+                "top": 94
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 12,
+                "top": 94
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 12,
+                "top": 94
+            }
+        }
+    },
+    "de.dafuqs.spectrum.inventories.CinderhearthScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 37,
+                "bottom": 7
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 37,
+                "top": 11
+            },
+            "SORT": {
+                "horizontalOffset": 37,
+                "top": 11
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 37,
+                "top": 11
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 37,
+                "top": 11
+            }
+        }
+    },
+    "de.dafuqs.spectrum.inventories.ColorPickerScreen": {
+        "playerSideOnly": true
+    },
+    "de.dafuqs.spectrum.inventories.FilteringScreen": {
+        "playerSideOnly": true
+    },
+    "de.dafuqs.spectrum.inventories.BlackHoleChestScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 12,
+                "top": 93
+            },
+            "SORT": {
+                "horizontalOffset": 12,
+                "top": 93
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 12,
+                "top": 93
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 12,
+                "top": 93
+            }
+        }
+    },
+    "de.dafuqs.spectrum.inventories.FabricationChestScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 12,
+                "top": 119
+            },
+            "SORT": {
+                "horizontalOffset": 12,
+                "top": 119
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 12,
+                "top": 119
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 12,
+                "top": 119
+            }
+        }
+    },
+    "de.dafuqs.spectrum.inventories.CompactingChestScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 2
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 18,
+                "top": 9
+            },
+            "SORT": {
+                "horizontalOffset": 18,
+                "top": 9
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 18,
+                "top": 9
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 18,
+                "top": 9
+            }
+        }
+    },
+    "de.dafuqs.spectrum.inventories.ParticleSpawnerScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.ParticleSpawnerScreenHandler": {
+        "ignore": true
+    }
+}

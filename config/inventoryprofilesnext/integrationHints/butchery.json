@@ -1,0 +1,14 @@
+{
+    "net.mcreator.butchery.client.gui.MeatgrinderguiScreen": {
+        "playerSideOnly": true
+    },
+    "net.mcreator.butchery.client.gui.PestleandmotarguiScreen": {
+        "playerSideOnly": true
+    },
+    "net.mcreator.butchery.client.gui.TaxidermystationguiScreen": {
+        "ignore": true
+    },
+    "net.mcreator.butchery.world.inventory.TaxidermystationguiMenu": {
+        "ignore": true
+    }
+}

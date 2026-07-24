@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+	"r": {"item":"irons_spellbooks:blood_rune"},
+	"w": {"item":"minecraft:crimson_stem"},
+	"b": {"item":"irons_spellbooks:blood_vial"},
+	"i": {"item":"hazennstuff:dreadsteel_ingot"}
+  },
+  "pattern": [
+    "iwr",
+    " bi",
+    " w "
+  ],
+  "result": {
+    "id": "hazennstuff:devastator_dormant"
+  }
+}

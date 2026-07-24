@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"c:onion"},{"tag":"c:eggs"},{"tag":"c:bread_crumbs"}],"result":{"id":"createfood:raw_onion_rings"},"neoforge:conditions":[{"type":"createfood:enabled","id":"raw_onion_rings"}],"fabric:load_conditions":[{"condition":"createfood:enabled","id":"raw_onion_rings"}]}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "porkchopfig",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "koopascritters:fig_kc"
+    }
+  ],
+  "result": {
+    "id": "koopascritters:porkchop_fig",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_bass"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "aquaculturedelight:crispy_fried_perch",
+    "count": 2
+  }
+}

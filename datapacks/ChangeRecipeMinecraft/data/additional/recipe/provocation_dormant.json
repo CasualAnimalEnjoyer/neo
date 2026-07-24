@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+	"r": {"item":"irons_spellbooks:evocation_rune"},
+	"c": {"item":"minecraft:clock"},
+	"h": {"item":"minecraft:tripwire_hook"},
+	"m": {"item":"irons_spellbooks:mithril_ingot"},
+	"i": {"item":"hazennstuff:steel_ingot"}
+  },
+  "pattern": [
+    " ih",
+    "imr",
+    "ic "
+  ],
+  "result": {
+    "id": "hazennstuff:provocation_dormant"
+  }
+}

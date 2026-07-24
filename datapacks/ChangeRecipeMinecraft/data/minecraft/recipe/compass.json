@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {"item":"minecraft:iron_ingot"},
+    "X": {"item":"minecraft:redstone"},
+    "G": {"tag":"c:glass_panes"}
+  },
+  "pattern": [
+    "#G#",
+    "GXG",
+    "#G#"
+  ],
+  "result": {
+    "id": "minecraft:compass"
+  }
+}

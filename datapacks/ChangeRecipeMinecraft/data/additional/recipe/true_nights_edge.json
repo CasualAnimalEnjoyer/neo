@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "hazennstuff:excalibur_fragment"
+  },
+  "base": {
+    "item": "hazennstuff:nights_edge"
+  },
+  "addition": {
+    "item": "hazennstuff:divine_mold"
+  },
+  "result": {
+    "components": {
+      "irons_spellbooks:affinity_data": {
+        "bonuses": {
+          "hazennstuff:nights_edge_strike": 1
+        }
+      },
+      "irons_spellbooks:spell_container": {
+        "data": [
+          {
+            "id": "hazennstuff:nights_edge_strike",
+            "index": 0,
+            "level": 8,
+            "locked": true
+          }
+        ],
+        "maxSpells": 1,
+        "mustEquip": false,
+        "spellWheel": true
+      }
+    },
+    "count": 1,
+    "id": "hazennstuff:true_nights_edge"
+  }
+}

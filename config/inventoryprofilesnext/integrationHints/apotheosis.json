@@ -1,0 +1,32 @@
+{
+    "dev.shadowsoffire.apotheosis.affix.salvaging.SalvagingScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.affix.salvaging.SalvagingMenu": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.socket.gem.cutting.GemCuttingScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.socket.gem.cutting.GemCuttingMenu": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.affix.reforging.ReforgingScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.affix.reforging.ReforgingMenu": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.affix.augmenting.AugmentingScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apotheosis.affix.augmenting.AugmentingMenu": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apothic_enchanting.table.ApothEnchantmentScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.apothic_enchanting.table.ApothEnchantmentMenu": {
+        "ignore": true
+    }
+}

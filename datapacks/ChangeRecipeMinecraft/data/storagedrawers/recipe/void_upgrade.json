@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R#",
+        "RXR",
+        "#R#"
+    ],
+    "key": {
+        "R": {"item":"minecraft:lava_bucket"},
+        "#": {"tag":"c:obsidians"},
+        "X": {"item":"storagedrawers:upgrade_template"}
+    },
+    "result": {"id":"storagedrawers:void_upgrade"}
+}

@@ -1,0 +1,28 @@
+{
+    "dev.xkmc.youkaishomecoming.content.pot.moka.MokaScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -24,
+                "bottom": 24
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            }
+        }
+    },
+    "dev.xkmc.youkaishomecoming.content.pot.kettle.KettleScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -24,
+                "bottom": 24
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            }
+        }
+    }
+}

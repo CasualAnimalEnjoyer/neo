@@ -1,0 +1,20 @@
+{
+    "io.redspace.ironsspellbooks.gui.scroll_forge.ScrollForgeScreen": {
+        "ignore": true
+    },
+    "io.redspace.ironsspellbooks.gui.scroll_forge.ScrollForgeMenu": {
+        "ignore": true
+    },
+    "io.redspace.ironsspellbooks.gui.inscription_table.InscriptionTableScreen": {
+        "ignore": true
+    },
+    "io.redspace.ironsspellbooks.gui.inscription_table.InscriptionTableMenu": {
+        "ignore": true
+    },
+    "net.alshanex.alshanex_familiars.screen.PetBedScreen": {
+        "ignore": true
+    },
+    "net.alshanex.alshanex_familiars.screen.PetBedMenu": {
+        "ignore": true
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "com.jaquadro.minecraft.storagedrawers.inventory.DrawerScreen$Slot4": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerDrawers4": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.DrawerScreen$Slot2": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerDrawers2": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.DrawerScreen$Slot1": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerDrawers1": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.DrawerScreen$Compacting3": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerDrawersComp3": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.FramingTableScreen": {
+        "playerSideOnly": true
+    }
+}

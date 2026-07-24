@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        "X#X",
+        "///"
+    ],
+    "key": {
+        "/": {"item":"minecraft:stick"},
+        "#": {"item":"minecraft:iron_block"},
+        "X": {"item":"storagedrawers:obsidian_storage_upgrade"}
+    },
+    "result": {"id": "storagedrawers:iron_storage_upgrade"}
+}

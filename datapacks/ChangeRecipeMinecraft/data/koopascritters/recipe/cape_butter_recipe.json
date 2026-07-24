@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "buffalobutter",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "koopascritters:buff_milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "id": "koopascritters:cape_buffalo_butter",
+    "count": 1
+  }
+}

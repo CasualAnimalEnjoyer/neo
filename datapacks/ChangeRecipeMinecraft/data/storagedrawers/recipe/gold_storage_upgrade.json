@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        "X#X",
+        "///"
+    ],
+    "key": {
+        "/": {"item":"minecraft:stick"},
+        "#": {"item":"minecraft:gold_block"},
+        "X": {"item":"storagedrawers:iron_storage_upgrade"}
+    },
+    "result": {"id": "storagedrawers:gold_storage_upgrade"}
+}

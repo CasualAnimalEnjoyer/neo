@@ -1,0 +1,5 @@
+{
+    "com.teammetallurgy.aquaculture.client.gui.screen.TackleBoxScreen": {
+        "playerSideOnly": true
+    }
+}

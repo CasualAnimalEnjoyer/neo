@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "c:foods/dough"
+    },
+    "E": {
+      "tag": "c:eggs"
+    },
+    "F": {
+      "tag": "c:foods/fruits/fig"
+    },
+    "J": {
+      "item": "fruitsdelight:orange_jam"
+    },
+    "M": {
+      "tag": "c:milk"
+    },
+    "S": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    "MSM",
+    "EJE",
+    "FDF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fruitsdelight:fig_pudding"
+  }
+}

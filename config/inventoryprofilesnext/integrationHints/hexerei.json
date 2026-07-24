@@ -1,0 +1,55 @@
+{
+    "net.joefoxe.hexerei.screen.CofferScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -63
+            },
+            "SORT_COLUMNS": {
+                "bottom": -63
+            },
+            "SORT_ROWS": {
+                "bottom": -63
+            }
+        }
+    },
+    "net.joefoxe.hexerei.container.CofferContainer": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.screen.MixingCauldronScreen": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.container.MixingCauldronContainer": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.screen.BroomScreen": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.container.BroomContainer": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.screen.CrowScreen": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.container.CrowContainer": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.screen.OwlScreen": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.container.OwlContainer": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.screen.HerbJarScreen": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.container.HerbJarContainer": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.screen.WoodcutterScreen": {
+        "ignore": true
+    },
+    "net.joefoxe.hexerei.container.WoodcutterContainer": {
+        "ignore": true
+    }
+}

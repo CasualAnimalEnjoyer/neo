@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createfood:sliced_onion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "extradelight:sliced_onion"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "net.satisfy.farm_and_charm.client.gui.StoveGui": {
+        "playerSideOnly": true
+    },
+    "net.satisfy.vinery.client.gui.ApplePressGui": {
+        "playerSideOnly": true
+    },
+    "net.satisfy.vinery.client.gui.FermentationBarrelGui": {
+        "ignore": true
+    },
+    "net.satisfy.vinery.client.gui.handler.FermentationBarrelGuiHandler": {
+        "ignore": true
+    },
+    "net.satisfy.herbalbrews.client.gui.CauldronGui": {
+        "ignore": true
+    },
+    "net.satisfy.herbalbrews.client.gui.TeaKettleGui": {
+        "ignore": true
+    },
+    "net.satisfy.herbalbrews.client.gui.handler.TeaKettleGuiHandler": {
+        "ignore": true
+    },
+    "net.satisfy.herbalbrews.client.gui.handler.CauldronGuiHandler": {
+        "ignore": true
+    }
+}
