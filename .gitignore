@@ -1,0 +1,10 @@
+# Ignore everything
+/*
+
+# Allow all directories (required so Git can look inside them)
+!/.gitignore
+!/config/
+!/datapacks/
+!/mods/
+!/resourcepacks/
+!/shaderpacks/
