@@ -109,7 +109,7 @@
       "keys": "LEFT_CONTROL,X"
     },
     "executeOperation": {
-      "keys": ""
+      "keys": "LEFT_CONTROL,C"
     },
     "invertGhostBlockRenderState": {
       "keys": ""
