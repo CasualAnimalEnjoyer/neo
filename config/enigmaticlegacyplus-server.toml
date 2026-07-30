@@ -493,7 +493,7 @@
 	painMultiplier = 200
 	# Default: 24.0
 	# Range: 4.0 ~ 100.0
-	neutralAngerRange = 24.0
+	neutralAngerRange = 4.0
 	# Default: 30
 	# Range: 0 ~ 100
 	armorDebuff = 30

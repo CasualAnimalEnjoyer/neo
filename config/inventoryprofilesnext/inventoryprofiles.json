@@ -40,10 +40,10 @@
             "value": false
         },
         "enable_profiles_announcement": false,
-    	"editor_left": 35,
-    	"editor_top": 252,
-    	"settings_left": 23,
-    	"settings_top": 252
+        "settings_top": 252,
+        "settings_left": 23,
+        "editor_top": 252,
+        "editor_left": 35
     },
     "SortSettings": {
         "sort_order": "ITEM_ID"
@@ -60,8 +60,17 @@
             "value": true
         },
         "ignore_locked_slots": false,
-        "tool_damage_threshold": 1,
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "tool_damage_threshold": 2,
         "auto_refill_wait_tick": 10,
+        "auto_refill_enable_horbar_indicator_icons": {
+            "value": false
+        },
         "auto_refill_match_any_food": true,
         "number_of_notifications": 2
     },

@@ -62,7 +62,117 @@
 		# Add additional rules here in the form: <big_item>, <small_item>, <amount>
 		compactingRules = [
 			"minecraft:clay, minecraft:clay_ball, 4", 
-			"minecraft:paper, minecraft:sugar_cane, 3", "minecraft:sugar_cane, minecraft:sugar, 1"
+			"minecraft:paper, minecraft:sugar_cane, 3", "minecraft:sugar_cane, minecraft:sugar, 1",
+			# minecraft
+			"minecraft:oak_log, minecraft:oak_wood, 1", "minecraft:oak_wood, minecraft:oak_planks, 4",
+			"minecraft:spruce_log, minecraft:spruce_wood, 1", "minecraft:spruce_wood, minecraft:spruce_planks, 4",
+			"minecraft:birch_log, minecraft:birch_wood, 1", "minecraft:birch_wood, minecraft:birch_planks, 4",
+			"minecraft:jungle_log, minecraft:jungle_wood, 1", "minecraft:jungle_wood, minecraft:jungle_planks, 4",
+			"minecraft:acacia_log, minecraft:acacia_wood, 1", "minecraft:acacia_wood, minecraft:acacia_planks, 4",
+			"minecraft:dark_oak_log, minecraft:dark_oak_wood, 1", "minecraft:dark_oak_wood, minecraft:dark_oak_planks, 4",
+			"minecraft:mangrove_log, minecraft:mangrove_wood, 1", "minecraft:mangrove_wood, minecraft:mangrove_planks, 4",
+			"minecraft:cherry_log, minecraft:cherry_wood, 1", "minecraft:cherry_wood, minecraft:cherry_planks, 4",
+			"minecraft:crimson_stem, minecraft:crimson_hyphae, 1", "minecraft:crimson_hyphae, minecraft:crimson_planks, 4",
+			"minecraft:warped_stem, minecraft:warped_hyphae, 1", "minecraft:warped_hyphae, minecraft:warped_planks, 4",
+			# atmospheric
+			"atmospheric:rosewood_log, atmospheric:rosewood, 1", "atmospheric:rosewood, atmospheric:rosewood_planks, 4",
+			"atmospheric:morado_log, atmospheric:morado_wood, 1", "atmospheric:morado_wood, atmospheric:morado_planks, 4",
+			"atmospheric:yucca_log, atmospheric:yucca_wood, 1", "atmospheric:yucca_wood, atmospheric:yucca_planks, 4",
+			"atmospheric:laurel_log, atmospheric:laurel_wood, 1", "atmospheric:laurel_wood, atmospheric:laurel_planks, 4",
+			"atmospheric:aspen_log, atmospheric:aspen_wood, 1", "atmospheric:aspen_wood, atmospheric:aspen_planks, 4",
+			"atmospheric:watchful_aspen_log, atmospheric:watchful_aspen_wood, 1", "atmospheric:watchful_aspen_wood, atmospheric:watchful_aspen_planks, 4",
+			"atmospheric:kousa_log, atmospheric:kousa_wood, 1", "atmospheric:kousa_wood, atmospheric:kousa_planks, 4",
+			"atmospheric:grimwood_log, atmospheric:grimwood, 1", "atmospheric:grimwood, atmospheric:grimwood_planks, 4",
+			# autumnity
+			"autumnity:maple_log, autumnity:maple_wood, 1", "autumnity:maple_wood, autumnity:maple_planks, 4",
+			# caverns_and_chasms
+			"caverns_and_chasms:azalea_log, caverns_and_chasms:azalea_wood, 1", "caverns_and_chasms:azalea_wood, caverns_and_chasms:azalea_planks, 4",
+			# minecraft
+			"environmental:willow_log, environmental:willow_wood, 1", "environmental:willow_wood, environmental:willow_planks, 4",
+			"environmental:pine_log, environmental:pine_wood, 1", "environmental:pine_wood, environmental:pine_planks, 4",
+			"environmental:plum_log, environmental:plum_wood, 1", "environmental:plum_wood, environmental:plum_planks, 4",
+			"environmental:wisteria_log, environmental:wisteria_wood, 1", "environmental:wisteria_wood, environmental:wisteria_planks, 4",
+			# upgrade_aquatic
+			"upgrade_aquatic:driftwood_log, upgrade_aquatic:driftwood, 1", "upgrade_aquatic:driftwood, upgrade_aquatic:driftwood_planks, 4",
+			"upgrade_aquatic:river_log, upgrade_aquatic:river_wood, 1", "upgrade_aquatic:river_wood, upgrade_aquatic:river_planks, 4",
+			# regions_unexplored
+			"regions_unexplored:baobab_log, regions_unexplored:baobab_wood, 1", "regions_unexplored:baobab_wood, regions_unexplored:baobab_planks, 4",
+			"regions_unexplored:blackwood_log, regions_unexplored:blackwood_wood, 1", "regions_unexplored:blackwood_wood, regions_unexplored:blackwood_planks, 4",
+			"regions_unexplored:brimwood_log, regions_unexplored:brimwood_wood, 1", "regions_unexplored:brimwood_wood, regions_unexplored:brimwood_planks, 4",
+			"regions_unexplored:cobalt_log, regions_unexplored:cobalt_wood, 1", "regions_unexplored:cobalt_wood, regions_unexplored:cobalt_planks, 4",
+			"regions_unexplored:cypress_log, regions_unexplored:cypress_wood, 1", "regions_unexplored:cypress_wood, regions_unexplored:cypress_planks, 4",
+			"regions_unexplored:dead_log, regions_unexplored:dead_wood, 1", "regions_unexplored:dead_wood, regions_unexplored:dead_planks, 4",
+			"regions_unexplored:euclyptus_log, regions_unexplored:euclyptus_wood, 1", "regions_unexplored:euclyptus_wood, regions_unexplored:euclyptus_planks, 4",
+			"regions_unexplored:joshua_log, regions_unexplored:joshua_wood, 1", "regions_unexplored:joshua_wood, regions_unexplored:joshua_planks, 4",
+			"regions_unexplored:kapok_log, regions_unexplored:kapok_wood, 1", "regions_unexplored:kapok_wood, regions_unexplored:kapok_planks, 4",
+			"regions_unexplored:larch_log, regions_unexplored:larch_wood, 1", "regions_unexplored:larch_wood, regions_unexplored:larch_planks, 4",
+			"regions_unexplored:magnolia_log, regions_unexplored:magnolia_wood, 1", "regions_unexplored:magnolia_wood, regions_unexplored:magnolia_planks, 4",
+			"regions_unexplored:maple_log, regions_unexplored:maple_wood, 1", "regions_unexplored:maple_wood, regions_unexplored:maple_planks, 4",
+			"regions_unexplored:palm_log, regions_unexplored:palm_wood, 1", "regions_unexplored:palm_wood, regions_unexplored:palm_planks, 4",
+			"regions_unexplored:pine_log, regions_unexplored:pine_wood, 1", "regions_unexplored:pine_wood, regions_unexplored:pine_planks, 4",
+			"regions_unexplored:redwodd_log, regions_unexplored:redwodd_wood, 1", "regions_unexplored:redwodd_wood, regions_unexplored:redwodd_planks, 4",
+			"regions_unexplored:socotra_log, regions_unexplored:socotra_wood, 1", "regions_unexplored:socotra_wood, regions_unexplored:socotra_planks, 4",
+			"regions_unexplored:willow_log, regions_unexplored:willow_wood, 1", "regions_unexplored:willow_wood, regions_unexplored:willow_planks, 4",
+			"regions_unexplored:wisteria_log, regions_unexplored:wisteria_wood, 1", "regions_unexplored:wisteria_wood, regions_unexplored:wisteria_planks, 4",
+			"regions_unexplored:pink_bioshroom_stem, regions_unexplored:pink_bioshroom_hyphae, 1", "regions_unexplored:pink_bioshroom_hyphae, regions_unexplored:pink_bioshroom_planks, 4",
+			"regions_unexplored:yellow_bioshroom_stem, regions_unexplored:yellow_bioshroom_hyphae, 1", "regions_unexplored:yellow_bioshroom_hyphae, regions_unexplored:yellow_bioshroom_planks, 4",
+			"regions_unexplored:blue_bioshroom_stem, regions_unexplored:blue_bioshroom_hyphae, 1", "regions_unexplored:blue_bioshroom_hyphae, regions_unexplored:blue_bioshroom_planks, 4",
+			"regions_unexplored:green_bioshroom_stem, regions_unexplored:green_bioshroom_hyphae, 1", "regions_unexplored:green_bioshroom_hyphae, regions_unexplored:green_bioshroom_planks, 4",
+			# divinerpg
+			"divinerpg:divine_log, regions_unexplored:divine_wood, 1", "regions_unexplored:divine_wood, regions_unexplored:divine_planks, 4",
+			"divinerpg:shiverspine_log, regions_unexplored:shiverspine_wood, 1", "regions_unexplored:shiverspine_wood, regions_unexplored:shiverspine_planks, 4",
+			"divinerpg:auroraoak_log, regions_unexplored:auroraoak_wood, 1", "regions_unexplored:auroraoak_wood, regions_unexplored:auroraoak_planks, 4",
+			"divinerpg:cozybark_log, regions_unexplored:cozybark_wood, 1", "regions_unexplored:cozybark_wood, regions_unexplored:cozybark_planks, 4",
+			"divinerpg:streamleaf_log, regions_unexplored:streamleaf_wood, 1", "regions_unexplored:streamleaf_wood, regions_unexplored:streamleaf_planks, 4",
+			"divinerpg:calyptus_log, regions_unexplored:calyptus_wood, 1", "regions_unexplored:calyptus_wood, regions_unexplored:calyptus_planks, 4",
+			"divinerpg:eden_log, regions_unexplored:eden_wood, 1", "regions_unexplored:eden_wood, regions_unexplored:eden_planks, 4",
+			"divinerpg:wildwood_log, regions_unexplored:wildwood_wood, 1", "regions_unexplored:wildwood_wood, regions_unexplored:wildwood_planks, 4",
+			"divinerpg:apalachia_log, regions_unexplored:apalachia_wood, 1", "regions_unexplored:apalachia_wood, regions_unexplored:apalachia_planks, 4",
+			"divinerpg:skythern_log, regions_unexplored:skythern_wood, 1", "regions_unexplored:skythern_wood, regions_unexplored:skythern_planks, 4",
+			"divinerpg:mortum_log, regions_unexplored:mortum_wood, 1", "regions_unexplored:mortum_wood, regions_unexplored:mortum_planks, 4",
+			# deeperdarker
+			"deeperdarker:echo_log, deeperdarker:echo_wood, 1", "deeperdarker:_wood, deeperdarker:echo_planks, 4",
+			"deeperdarker:bloom_log, deeperdarker:bloom_wood, 1", "deeperdarker:bloom_wood, deeperdarker:bloom_planks, 4",
+			# vampirism
+			"vampirism:dark_spruce_log, vampirism:dark_spruce_wood, 1", "vampirism:dark_spruce_wood, vampirism:dark_spruce_planks, 4",
+			"vampirism:cursed_spruce_log, vampirism:cursed_spruce_wood, 1", "vampirism:cursed_spruce_wood, vampirism:cursed_spruce_planks, 4",
+			# werewolfes
+			"werewolfes:jacaranda_log, werewolfes:jacaranda_wood, 1", "werewolfes:jacaranda_wood, werewolfes:jacaranda_planks, 4",
+			"werewolfes:magic_log, werewolfes:magic_wood, 1", "werewolfes:magic_wood, werewolfes:magic_planks, 4",
+			# feywild
+			"feywild:summer_tree_log, feywild:summer_tree_wood, 1", "feywild:summer_tree_wood, feywild:summer_tree_planks, 4",
+			"feywild:spring_tree_log, feywild:spring_tree_wood, 1", "feywild:spring_tree_wood, feywild:spring_tree_planks, 4",
+			"feywild:winter_tree_log, feywild:winter_tree_wood, 1", "feywild:winter_tree_wood, feywild:winter_tree_planks, 4",
+			"feywild:autumn_tree_log, feywild:autumn_tree_wood, 1", "feywild:autumn_tree_wood, feywild:autumn_tree_planks, 4",
+			# hazennstuff
+			"hazennstuff:wisewood_log, hazennstuff:wisewood_wood, 1", "hazennstuff:wisewood_wood, hazennstuff:wisewood_planks, 4",
+			"hazennstuff:frostbite_birch_log, hazennstuff:frostbite_birch_wood, 1", "hazennstuff:frostbite_birch_wood, hazennstuff:frostbite_birch_planks, 4",
+			# hexerei
+			"hexerei:mahagony_log, hexerei:mahagony_wood, 1", "hexerei:mahagony_wood, hexerei:mahagony_planks, 4",
+			"hexerei:willow_log, hexerei:willow_wood, 1", "hexerei:willow_wood, hexerei:willow_planks, 4",
+			"hexerei:witch_hazel_log, hexerei:witch_hazel_wood, 1", "hexerei:witch_hazel_wood, hexerei:witch_hazel_planks, 4",
+			# spectrum
+			"spectrum:white_log, spectrum:white_wood, 1", "spectrum:white_wood, spectrum:white_planks, 4",
+			"spectrum:orange_log, spectrum:orange_wood, 1", "spectrum:orange_wood, spectrum:orange_planks, 4",
+			"spectrum:magenta_log, spectrum:magenta_wood, 1", "spectrum:magenta_wood, spectrum:magenta_planks, 4",
+			"spectrum:light_blue_log, spectrum:light_blue_wood, 1", "spectrum:light_blue_wood, spectrum:light_blue_planks, 4",
+			"spectrum:yellow_log, spectrum:yellow_wood, 1", "spectrum:yellow_wood, spectrum:yellow_planks, 4",
+			"spectrum:lime_log, spectrum:lime_wood, 1", "spectrum:lime_wood, spectrum:lime_planks, 4",
+			"spectrum:pink_log, spectrum:pink_wood, 1", "spectrum:pink_wood, spectrum:pink_planks, 4",
+			"spectrum:gray_log, spectrum:gray_wood, 1", "spectrum:gray_wood, spectrum:gray_planks, 4",
+			"spectrum:light_gray_log, spectrum:light_gray_wood, 1", "spectrum:light_gray_wood, spectrum:light_gray_planks, 4",
+			"spectrum:cyan_log, spectrum:cyan_wood, 1", "spectrum:cyan_wood, spectrum:cyan_planks, 4",
+			"spectrum:purple_log, spectrum:purple_wood, 1", "spectrum:purple_wood, spectrum:purple_planks, 4",
+			"spectrum:blue_log, spectrum:blue_wood, 1", "spectrum:blue_wood, spectrum:blue_planks, 4",
+			"spectrum:brown_log, spectrum:brown_wood, 1", "spectrum:brown_wood, spectrum:brown_planks, 4",
+			"spectrum:green_log, spectrum:green_wood, 1", "spectrum:green_wood, spectrum:green_planks, 4",
+			"spectrum:red_log, spectrum:red_wood, 1", "spectrum:red_wood, spectrum:red_planks, 4",
+			"spectrum:black_log, spectrum:black_wood, 1", "spectrum:black_wood, spectrum:black_planks, 4",
+			# phantasm
+			"phantasm:pream_log, phantasm:pream_wood, 1", "phantasm:pream_wood, phantasm:pream_planks, 4",
+			# extra_delight
+			"extradelight:cinnamon_log, extradelight:cinnamon_wood, 1", "extradelight:cinnamon_wood, extradelight:cinnamon_planks, 4",
+			"extradelight:fruit_log, extradelight:fruit_wood, 1", "extradelight:fruit_wood, extradelight:fruit_planks, 4"
 		]
 
 	# Configuration around detached drawers, which are individual drawer slots pulled from a drawer block.
