@@ -4,8 +4,8 @@
 
 ## Table of Contents
   - [Desription](#description)
-  - [Installation](#installation)
   - [Modpack Specifications](#modpack-specifications)
+  - [Installation](#installation)
 
 ## Description
 I with my friend decided to play minecraft with mods, Food and Magic all we need (and a bit of industrialization with Create). Over 2000+ food. Over 500+ spells. Become a magician, vampire, werewolf, catch fish, fight dragons, bosses an more!
