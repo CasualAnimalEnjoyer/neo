@@ -16,5 +16,5 @@ I with my friend decided to play minecraft with mods, Food and Magic all we need
 
 ## Installation
   - You could find needed neoforge version in the "versions" folder or download from the official site.
-1. You could use .bat file, it will automatically install the modpack into the necessary folder, or choose one, you want.
+1. You could use .bat file, it will automatically install the modpack into the necessary folder, or choose one you want.
 2. You could drag n drop folders into your minecraft one. NOTE! Please remove "mods" folder in the main minecraft folder, and then copy paste from here. You could merge the "config" folder.
