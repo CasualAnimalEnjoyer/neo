@@ -1,6 +1,6 @@
 # Magically Gluttonous Adventures Modpack
 
-*Read this in other languages: [English](README.md), [Русский](README.ru.md),*
+*Read this in other languages: [English](README.md), [Русский](README.ru.md)*
 
 ## Table of Contents
   - [Desription](#description)
