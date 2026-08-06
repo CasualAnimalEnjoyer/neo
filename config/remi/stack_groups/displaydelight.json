@@ -1,0 +1,10 @@
+{
+  "id": "2friends:displaydelight",
+  "name": "stackgroup.2friends.displaydelight",
+  "type": "remi:regex",
+  "regex": "displaydelight:.*",
+  "exclusions":[
+    "displaydelight:food_plate",
+    "displaydelight:small_food_plate"
+  ]
+}

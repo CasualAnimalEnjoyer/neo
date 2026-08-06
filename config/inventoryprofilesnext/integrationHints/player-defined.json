@@ -77,20 +77,6 @@
     "com.vsngarcia.level.ElevatorContainer": {
         "ignore": true
     },
-    "net.orcinus.galosphere.client.gui.CombustionTableScreen": {
-        "playerSideOnly": true,
-        "buttonHints": {
-            "SORT": {
-                "bottom": 35
-            },
-            "SORT_COLUMNS": {
-                "bottom": 35
-            },
-            "SORT_ROWS": {
-                "bottom": 35
-            }
-        }
-    },
     "net.mcreator.luminousnether.world.inventory.CleansingGUIMenu": {
         "ignore": true
     },

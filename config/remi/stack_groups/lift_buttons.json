@@ -1,0 +1,6 @@
+{
+  "id": "2friends:lift_buttons",
+  "name": "stackgroup.2friends.lift_buttons",
+  "type": "remi:regex",
+  "regex": "caverns_and_chasms:.*lift_button"
+}

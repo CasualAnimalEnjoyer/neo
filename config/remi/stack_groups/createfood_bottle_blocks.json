@@ -1,0 +1,6 @@
+{
+  "id": "2friends:createfood_bottle_blocks",
+  "name": "stackgroup.2friends.createfood_bottle_blocks",
+  "type": "remi:regex",
+  "regex": "createfood:.*bottle.*block"
+}

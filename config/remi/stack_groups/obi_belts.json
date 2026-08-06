@@ -1,0 +1,6 @@
+{
+  "id": "2friends:obi_belts",
+  "name": "stackgroup.2friends.obi_belts",
+  "type": "remi:regex",
+  "regex": "vampirism:obi_belt"
+}

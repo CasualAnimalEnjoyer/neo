@@ -1,0 +1,6 @@
+{
+  "id": "2friends:floodlights",
+  "name": "stackgroup.2friends.floodlights",
+  "type": "remi:regex",
+  "regex": "caverns_and_chasms:.*floodlight"
+}

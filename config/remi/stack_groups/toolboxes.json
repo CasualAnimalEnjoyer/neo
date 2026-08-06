@@ -1,0 +1,6 @@
+{
+  "id": "2friends:toolboxes",
+  "name": "stackgroup.2friends.toolboxes",
+  "type": "remi:regex",
+  "regex": "caverns_and_chasms:.*toolbox"
+}

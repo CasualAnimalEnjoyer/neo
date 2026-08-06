@@ -1,0 +1,6 @@
+{
+  "id": "2friends:butchery_skeletons",
+  "name": "stackgroup.2friends.butchery_skeletons",
+  "type": "remi:regex",
+  "regex": "butchery:.*skeleton"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "2friends:amulets",
+  "name": "stackgroup.2friends.amulets",
+  "type": "remi:regex",
+  "regex": "vampirism:amulet"
+}

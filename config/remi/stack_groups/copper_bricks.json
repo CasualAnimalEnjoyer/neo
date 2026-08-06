@@ -1,0 +1,6 @@
+{
+  "id": "2friends:copper_bricks",
+  "name": "stackgroup.2friends.copper_bricks",
+  "type": "remi:regex",
+  "regex": "caverns_and_chasms:.*copper_bricks"
+}

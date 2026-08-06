@@ -1,0 +1,6 @@
+{
+  "id": "2friends:gummies",
+  "name": "stackgroup.2friends.gummies",
+  "type": "remi:regex",
+  "regex": "ccw:gummy"
+}

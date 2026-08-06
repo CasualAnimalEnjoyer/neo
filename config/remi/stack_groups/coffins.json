@@ -1,0 +1,6 @@
+{
+  "id": "2friends:coffins",
+  "name": "stackgroup.2friends.coffins",
+  "type": "remi:regex",
+  "regex": "vampirism:coffin.*"
+}

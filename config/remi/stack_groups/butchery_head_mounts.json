@@ -1,0 +1,6 @@
+{
+  "id": "2friends:butchery_head_mounts",
+  "name": "stackgroup.2friends.butchery_head_mounts",
+  "type": "remi:regex",
+  "regex": "butchery:.*_head_mount"
+}

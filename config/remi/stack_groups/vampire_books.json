@@ -1,0 +1,6 @@
+{
+  "id": "2friends:vampire_books",
+  "name": "stackgroup.2friends.vampire_books",
+  "type": "remi:regex",
+  "regex": "vampirism:vampire_book"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "2friends:gems",
+  "name": "stackgroup.2friends.gems",
+  "type": "remi:regex",
+  "regex": "apotheosis:gem"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "2friends:coralstones",
+  "name": "stackgroup.2friends.coralstones",
+  "type": "remi:regex",
+  "regex": ".*:.*coralstone"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "2friends:impact_potions",
+  "name": "stackgroup.2friends.impact_potions",
+  "type": "remi:regex",
+  "regex": "caverns_and_chasms:impact_potion"
+}

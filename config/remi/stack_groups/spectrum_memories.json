@@ -1,0 +1,6 @@
+{
+  "id": "2friends:spectrum_memories",
+  "name": "stackgroup.2friends.spectrum_memories",
+  "type": "remi:regex",
+  "regex": "spectrum:memory"
+}

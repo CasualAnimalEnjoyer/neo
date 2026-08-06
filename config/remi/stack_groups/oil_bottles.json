@@ -1,0 +1,6 @@
+{
+  "id": "2friends:oil_bottles",
+  "name": "stackgroup.2friends.oil_bottles",
+  "type": "remi:regex",
+  "regex": "vampirism:oil_bottle"
+}

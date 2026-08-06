@@ -1,0 +1,9 @@
+{
+  "id": "2friends:rails",
+  "name": "stackgroup.2friends.rails",
+  "type": "remi:regex",
+  "regexes":[
+    "minecraft:rail",
+    ".*:.*_rail"
+  ]
+}

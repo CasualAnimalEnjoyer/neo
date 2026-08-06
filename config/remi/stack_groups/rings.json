@@ -1,0 +1,6 @@
+{
+  "id": "2friends:rings",
+  "name": "stackgroup.2friends.rings",
+  "type": "remi:regex",
+  "regex": "vampirism:ring"
+}

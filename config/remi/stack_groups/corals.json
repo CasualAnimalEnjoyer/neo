@@ -1,0 +1,13 @@
+{
+  "id": "2friends:corals",
+  "name": "stackgroup.2friends.corals",
+  "type": "remi:regex",
+  "regexes":[
+    ".*:.*coral_block",
+    ".*:.*coral",
+    ".*:.*coral_fan"
+  ],
+  "exclusions":[
+    "cataclysm:crystallized_coral"
+  ]
+}

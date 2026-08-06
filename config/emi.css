@@ -29,17 +29,17 @@
 	/**
 	 * Whether normal search queries should include the tooltip.
 	 */
-	search-tooltip-by-default: true;
+	search-tooltip-by-default: false;
 
 	/**
 	 * Whether normal search queries should include the mod name.
 	 */
-	search-mod-name-by-default: false;
+	search-mod-name-by-default: true;
 
 	/**
 	 * Whether normal search queries should include the stack's tags.
 	 */
-	search-tags-by-default: false;
+	search-tags-by-default: true;
 }
 
 #ui {
@@ -167,17 +167,17 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites, craft-history;
+	left-sidebar-pages: favorites, craft-history, lookup-history;
 
 	/**
 	 * The subpanels in the left sidebar
 	 */
-	left-sidebar-subpanels: lookup-history 4;
+	left-sidebar-subpanels: none;
 
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 12, 100;
+	left-sidebar-size: 10, 100;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels

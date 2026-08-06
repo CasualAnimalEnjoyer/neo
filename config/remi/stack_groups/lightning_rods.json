@@ -1,0 +1,9 @@
+{
+  "id": "2friends:lightning_rods",
+  "name": "stackgroup.2friends.lightning_rods",
+  "type": "remi:regex",
+  "regex": ".*:.*lightning_rod",
+  "exclusions":[
+    "irons_spellbooks:lightning_rod"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "2friends:scrolls",
+  "name": "stackgroup.2friends.scrolls",
+  "type": "remi:regex",
+  "regex": "irons_spellbooks:scroll"
+}

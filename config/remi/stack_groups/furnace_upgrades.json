@@ -1,0 +1,6 @@
+{
+  "id": "2friends:furnace_upgrades",
+  "name": "stackgroup.2friends.furnace_upgrades",
+  "type": "remi:regex",
+  "regex": "ironfurnaces:upgrade_.*"
+}

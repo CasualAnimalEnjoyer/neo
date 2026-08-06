@@ -1,0 +1,6 @@
+{
+  "id": "2friends:crates",
+  "name": "stackgroup.2friends.crates",
+  "type": "remi:regex",
+  "regex": ".*:.*crate"
+}

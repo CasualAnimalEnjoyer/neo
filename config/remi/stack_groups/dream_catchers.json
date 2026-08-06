@@ -1,0 +1,6 @@
+{
+  "id": "2friends:dream_catchers",
+  "name": "stackgroup.2friends.dream_catchers",
+  "type": "remi:regex",
+  "regex": "werewolves:dream_catcher"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "2friends:infographics",
+  "name": "stackgroup.2friends.infographics",
+  "type": "remi:regex",
+  "regex": "koopascritters:.*graphic.*"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "2friends:trail_potions",
+  "name": "stackgroup.2friends.trail_potions",
+  "type": "remi:regex",
+  "regex": "caverns_and_chasms:trail_potion"
+}
