@@ -1,0 +1,6 @@
+{
+  "id": "2friends:fluids",
+  "name": "stackgroup.2friends.fluids",
+  "type": "remi:regex",
+  "regex": "fluid:.*"
+}

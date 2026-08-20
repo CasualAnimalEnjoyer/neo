@@ -1,0 +1,6 @@
+{
+  "id": "2friends:effects",
+  "name": "stackgroup.2friends.effects",
+  "type": "remi:regex",
+  "regex": "jeed:effect:.*"
+}
