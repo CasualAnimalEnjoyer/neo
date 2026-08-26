@@ -1,0 +1,6 @@
+{
+  "id": "2friends:biomes",
+  "name": "stackgroup.2friends.biomes",
+  "type": "remi:regex",
+  "regex": "biome:.*:.*"
+}
