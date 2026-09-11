@@ -1,15 +1,15 @@
 # Don't change this! Version used to track needed updates.
 version = 0
 # Hand-delivers the sacred texts on first login.
-enableAutoGuidebookDelivery = true
+enableAutoGuidebookDelivery = false
 # If Auto Delivery is disabled (like in most modpacks), give the guidebook the first time the player actually spots a wild hamster from 10 blocks away. This will only trigger once, and only if the player has never received the guidebook before.
 enableAutoGuidebookDeliveryFallback = true
-# A list of usernames for players who have already seen the missing guidebook warning. Ensures that everyone sees this, but only once unless you delete your name from this list.
+# A list of players who have already seen the missing guidebook warning. This helps ensure that each player sees the warning only once. It was broken for a while, but it is fixed as of v3.7.0.
 playersWhoHaveSeenGuidebookWarning = [  ]
 # How long (in ticks) I wait before realizing you're book-less and panicking. 3600 = 3 minutes.
 guidebookWarningTimer = 3600
 # If true, you must hold sneak to expose their genetic secrets. If false, their DNA is proudly broadcasted to you at all times. Set to False by default so I don't get spammed on Discord.
-requireSneakForCustomJadeInfo = false
+requireSneakForCustomJadeInfo = true
 # If true, the default Jade info will also be hidden unless you are actively sneaking. This setting only matters if 'Require Sneaking' is enabled above.
 requireSneakForDefaultJadeInfo = false
 # Display the default Jade entity name. You know, 'Hampter'.
@@ -32,6 +32,10 @@ showJadeBreedingOverlay = true
 showJadeEyeColor = true
 # Display whether the hamster is currently in Pacifist, Menace, or just Standard aggression mode.
 showJadeAggressionState = true
+# Show Severe, Recovering, or Nearly Cured while looking at a fevered hamster.
+showJadeRedstoneFeverRecovery = false
+# Show whether a hamster is Untrained, Learning, Responsive, or Attuned to the Acorn Flute. The more in sync, the faster the hamster will respond when you use the flute to call it to your shoulder.
+showJadeFluteTraining = false
 # Display the default Jade inventory contents so you can see what your hamster is hoarding.
 showJadeInventory = true
 # The duration (in ticks) that action bar messages stay on screen. Only affects your personal computer. Vanilla is 60 (3 seconds), which is barely enough time to realize you're reading. Crank this up to savor the text. (20 ticks = 1 second).
@@ -59,7 +63,7 @@ enableJadeHamsterDebugInfo = false
 # Your personal switch for all announcement notifications. Turning this off is the same as clicking 'Disable All' in the announcement screen. Announcements can still be viewed in the §f§lHamster Tips§r guide book.
 enableNotificationIcons = false
 # If true, completely disables the announcement bell icon for all players on the server, overriding their client settings, including 'Enable Announcements (Client).'
-serverDisableAnnouncements = false
+serverDisableAnnouncements = true
 # For when you see the update notification and think, 'That's a problem for future me.' Future you will be so proud. This is where you select many days to hide the 'Update Available' notification when you click 'Remind Me Later'.
 snoozeUpdateReminderDays = 5
 # Decide if the bell haunts you full-time on the HUD or only ambushes you when you're trying to organize your inventory. If disabled, you will only see notifications when you open an inventory.

@@ -1,5 +1,7 @@
 # Don't change this! Version used to track needed updates.
 version = 0
+# Controls whether Redstone Fever can appear. Turning this off also cures every infected hamster.
+enableRedstoneFever = true
 # Whether hamsters are allowed to multiply. Turn this off if you fear someone on your server plans to create a rodent horde.
 enableBreeding = true
 # If true, hamsters that are actively following you (not sitting or wandering) will instantly teleport with you, across dimensions and even if their current chunk becomes unloaded. WARNING: do not turn this off unless you want to risk your hamsters being left behind on long teleports.
@@ -84,6 +86,12 @@ meleeDamage = 2.0
 hamsterThrowDamage = 20.0
 # Toggle this off if you find the rare, recessive red-eyed hamsters to be a bit too... scary. Reverts them to standard black, but only for you. They will still appear red for everyone else.
 enableRedEyes = true
+# If true, Acorn Ring contracts only cover hamsters. If false, they cover all conventionally owned pets.
+acornRingOnlyProtectsHamsters = false
+# If true, wearing an Acorn Ring prevents your direct attacks from damaging pets you own.
+acornRingPreventsDamageToOwnPets = true
+# If true, wearing an Acorn Ring prevents your direct attacks from damaging pets owned by another ring wearer.
+acornRingPreventsDamageToOtherPets = true
 # If true, a Passive hamster will automatically revert to Neutral if it sees its owner attacking something.
 pacifistBreakOnOwnerAttack = false
 # Items that turn the hamster into a total hippie. They will refuse to attack anything, even to defend you.
@@ -105,6 +113,40 @@ menaceTargetEntities = [
     "minecraft:slime",
     "minecraft:magma_cube"
 ]
+# Allows infected hamsters to recover by spending enough time in direct sunlight above the depths where Redstone Fever naturally appears.
+enableRedstoneFeverSunlightCuring = true
+# For testing only. Makes infected hamsters require 60 seconds of valid sunlight instead of the configured number of days.
+enableOneMinuteRedstoneFeverCureDebug = false
+# Number of Minecraft days an infected hamster must spend in direct sunlight to be cured. Progress pauses underground, in the shade and at night.
+redstoneFeverSunlightCureDays = 3
+# Maximum range in blocks at which an infected hamster can acquire a target.
+redstoneFeverTargetingRange = 16
+# Allows infected hamsters to attack nearly all types of nearby living entities. Accessible Survival and Adventure players remain first on the hit list.
+redstoneFeverAttackMostLivingMobs = true
+# Allows infected hamsters to occasionally race in tight circles. Perfectly normal medical behavior.
+enableRedstoneFeverEnergyBursts = true
+# Shortest possible wait (in seconds) before another energy burst begins.
+redstoneFeverMinBurstIntervalSeconds = 2
+# Longest possible wait (in seconds) before another energy burst begins.
+redstoneFeverMaxBurstIntervalSeconds = 5
+# Shortest possible duration of an energy burst (in seconds).
+redstoneFeverMinBurstDurationSeconds = 1
+# Longest possible duration of an energy burst (in seconds).
+redstoneFeverMaxBurstDurationSeconds = 2
+# Maximum distance in blocks at which players can hear an Acorn Flute. This setting is purely related to audio and has nothing to do with the effects that it has. The volume of the audio is dynamically adjusted based off your distance from the source.
+acornFluteAudioRange = 70
+# Percentage of the current riff that must finish before another flute use layers a new riff over it. With the default of 80%, playing during a riff's first 80% cuts it short and starts a new one; playing during the final 20% layers the new riff on top while the first one finishes.
+acornFluteRiffLayeringThresholdPercent = 80
+# Radius in blocks where a flute riff distracts creepers and interrupts Redstone Fever attacks.
+acornFluteEffectRadius = 16
+# Maximum distance in blocks for calling an owned hamster to an open shoulder or head slot. You can call them even if they are sitting or sleeping. Beyond this range they cannot hear you. Allegedly.
+acornFluteMountTargetingRadius = 8
+# Choose whether flute riffs calm every creeper, or only charged creepers. Is it OP? No. No, it's not. Don't even say that.
+acornFluteCreeperMode = "ALL"
+# Successful flute-assisted mounts needed for full attunement. Hamsters initially have to think about what you're asking for, so it at first, it takes ~3 seconds for them to respond. Keep training, and they will eventually respond within a single second.
+acornFluteMountsToMastery = 50
+# Minimum wait (in ticks) between flute uses. 20 ticks = 1 second. It's only one half of a second by default because I didn't want to punish your shaky aim if you intended to summon your hamster but you missed and played a normal riff instead. But if server members have decided the flute is actually a maraca, feel free to crank it up.
+acornFluteAntiSpamCooldownTicks = 10
 # If true, all baby hamsters are guaranteed to receive a breeding overlay, regardless of whether their parents had them. Reduces the total number of possible outcomes.
 forceBreedingOverlay = false
 # How much the baby's base color tends to deviate from the exact mathematical center between its parents. Higher values mean the baby could look much more like Parent A or Parent B, rather than a perfect mix.
@@ -206,7 +248,7 @@ tamedQuiescentSitMinSeconds = 120
 # Maximum seconds before the inevitable deep snooze.
 tamedQuiescentSitMaxSeconds = 180
 # The Master Switch. Affects all Hamster Beds. If true, hamsters linked to a bed can be resurrected there. Cheating? Maybe. Convenient? Absolutely.
-enableRespawnInBed = false
+enableRespawnInBed = true
 # If true, the bed only requires the resurrection tribute item once to be permanently activated for infinite respawns. (Ignored if 'Free Bed Respawns' is already enabled).
 infiniteRespawnsAfterTribute = false
 # If true, Hamster Beds do not require a tribute item to function as a respawn point. They will work indefinitely for free.
@@ -301,8 +343,8 @@ diamondSeekRadius = 10
 goldMistakeChance = 0.33
 # The list of blocks that smell... shiny. Especially to greedy hamsters. Diamonds by default, but maybe you want them to sniff for Zinc ore? Accepts block IDs (e.g. 'create:zinc_ore') and #tags (e.g. '#c:ores/diamond').
 celebrationOres = [
-    "minecraft:diamond_ore",
-    "minecraft:deepslate_diamond_ore"
+    "#c:ores/diamond",
+    "#c:ores/mithril"
 ]
 # Blocks that look promising but ultimately lead to a dramatic emotional breakdown. Gold by default, but if you want them to sniff for dirt, I'm not your conscience. Accepts block IDs (e.g. 'create:copper_ore') and #tags (e.g. '#c:ores/gold').
 sulkingOres = [
@@ -321,8 +363,8 @@ enableTagGamePlayerLimit = true
 maxDailyTagGamesPerPlayer = 3
 # How long (in seconds) the chase lasts before the hamsters get bored and the game ends. This only applies if the Chaser fails to catch the Instigator.
 interHamsterTagMaxDurationSeconds = 10
-# 1-in-X chance per tick to initiate a game of hide and seek. Default 3600 (20 ticks per second, so default averages once every ~3 minutes).
-hideAndSeekChanceDenominator = 3600
+# 1-in-X chance per tick to initiate a game of hide and seek. Default 7200 (20 ticks per second, so default averages once every ~6 minutes).
+hideAndSeekChanceDenominator = 7200
 # Minimum time (in seconds) the hamster will stay hidden.
 hideAndSeekMinDurationSeconds = 45
 # Maximum time (in seconds) before the hamster gets board, gives up and sulks.
@@ -344,6 +386,12 @@ inventoryHidingBlacklist = [
     "minecraft:campfire",
     "minecraft:soul_campfire"
 ]
+# Allow healthy wild hamsters to randomly and instantly become infected with Redstone Fever when first approached by a Survival or Adventure player. The dice gets rolled once per hamster even if they are approached again later. So a hamster that doesn't turn on you after you approach can be trusted.
+enableSurfaceSurpriseRedstoneFever = false
+# Percentage chance that an undecided hamster contracts Redstone Fever on first approach.
+surfaceSurpriseFeverChance = 25
+# Distance in blocks at which the first eligible player causes the dice roll.
+surfaceSurpriseRevealDistance = 8
 # Adds a keybind to mount hamsters. (It's unbound by default). Allows riding any hamster, but you can only steer your own. 
 # 
 # Commissioned by @Saint_Victus.
@@ -352,6 +400,8 @@ enableMountableHamsters = false
 ridingBaseSpeedMultiplier = 0.25
 # The speed multiplier when sprinting. Hold on to your acorn hat. 0.35 is the default. I wish it was a nice round number, but alas, hamster riding is a complex enigma.
 ridingSprintSpeedMultiplier = 0.35
+# Percentage removed from a hamster's base throw cooldown when the throwing player has Feather Yeeting. 0% preserves the base cooldown; 100% removes it.
+featherYeetingCooldownReductionPercent = 50
 
 [acornPbr]
 # The Alpha channel. How much it glows in the dark. 0 is dark, 254 is a tiny blinding sun. DO NOT set it to 255. LabPBR ignores 255 entirely, so it actually means zero glow.
